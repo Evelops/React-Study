@@ -2,6 +2,7 @@ import React from 'react';
 import Number from './Number';
 import Clock from './Clock';
 import Test from './Test';
+import Door from './Door';
 import './App.css';
 
 const Name=({name})=>{
@@ -18,6 +19,7 @@ const App = (props) => {
       <Number/>
       <Clock/>
       <Test/>
+      <Door/>
       
     </div> //Name이라는 자식 Component에게 name이라는 값을 넘겨줬음. 추가로 index.js에서 age값을 props인자로 받아서 화면에 띄어줌. 
   );

@@ -7,7 +7,7 @@ const call = () =>{
 export default function Event(){
     return (
         <div>
-            <button onClick={call}>click</button>
+            <button onClick={call}>Click</button>
         </div>
     );
 }
